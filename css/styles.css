@@ -1,0 +1,82 @@
+.headerr{
+background: #F6F6F9;
+}
+.logo-n24{
+
+}
+.main-glava-hidden{
+
+}
+.valyutalar li{
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+list-style: none;
+color: #285193;
+}
+.language-text{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #535353;
+}
+.telegram-text{
+  text-decoration: none;
+}
+.nav-item li{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  list-style: none;
+  color: #515151;
+}
+.nav-item a{
+  text-decoration: none;
+}
+.covid-text{
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.corona-article{
+  background: #F6F6F9;
+}
+.kasallangan{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #DB0000;
+}
+.kasal-raqam{
+  font-weight: bold;
+}
+.tuzalgan{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05B135;
+}
+.tuzalgan-raqam{
+  font-weight: bold;
+}
+.olgan{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.olgan-raqam{
+  font-weight: bold;
+}
+.section-hidden{
+
+}
