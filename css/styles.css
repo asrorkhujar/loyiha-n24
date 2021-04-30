@@ -1,3 +1,6 @@
+body{
+  background-color: #fff;
+}
 .headerr{
 background: #F6F6F9;
 }
@@ -7,13 +10,17 @@ background: #F6F6F9;
 .main-glava-hidden{
 
 }
+.valyutalar span{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #285193;
+}
 .valyutalar li{
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-list-style: none;
-color: #285193;
+  font-size: 16px;
+  line-height: 19px;
+  list-style: none;
+  color: #7A7A7A;
 }
 .language-text{
 font-style: normal;
@@ -23,7 +30,14 @@ line-height: 19px;
 color: #535353;
 }
 .telegram-text{
-  text-decoration: none;
+text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+
 }
 .nav-item li{
   font-style: normal;
