@@ -6,12 +6,12 @@ body {
 .container {
   width: 1200px;
   left: 119px;
- margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
   padding-right: 30px;
 }
-
+/* SITE HEADER */
 .headerr {
   background: #F6F6F9;
 }
@@ -43,13 +43,6 @@ body {
   background-color: #fff;
 }
 .logo-n24 {}
-
-.main-glava-hidden {}
-
-.covid-statistika{
-  display: flex;
-  justify-content: space-around;
-}
 .valyutalar span {
   font-weight: bold;
   font-size: 16px;
@@ -120,6 +113,15 @@ body {
   color: #515151;
 }
 
+/* COVID STATISTIKA */
+.main-glava-hidden {}
+
+.covid-statistika{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .covid-text {
   font-style: normal;
   font-weight: 500;
@@ -173,17 +175,21 @@ display: flex;
 .olgan-raqam {
   font-weight: bold;
 }
-
+/* BREAKING NEWS */
 .section-hidden {}
 
 .breakin-news-head li {
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
+  width: 386px;
   list-style: none;
   color: #202020;
 }
-
+.breaking-news-text{
+  display: flex;
+  flex-wrap: wrap;
+}
 .breaking-news-text a {
   text-decoration: none;
   font-weight: 500;
@@ -200,6 +206,13 @@ display: flex;
 
 .article-join {
   background: rgba(239, 186, 84, 0.18);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-join div{
+  display: flex;
+  justify-content: left;
 }
 
 .article-bell {}
@@ -209,7 +222,6 @@ display: flex;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
   color: #000000;
 }
 
@@ -222,9 +234,28 @@ display: flex;
   color: #FFFFFF;
 
 }
+.all-last-popular-news{
+  display: flex;
+  justify-content: space-between;
+}
+/* LAST NEWS */
+.last-news-head{
+  width: 780px;
+  }
+  .last-news-head img{
+    width: 252px;
+    height: 143px;
+
+  }
+.last-news-text li{
+display: flex;
+align-items: center;
+
+}
 
 .last-news-text li {
   list-style: none;
+
 }
 
 .last-news-text a {
@@ -251,6 +282,8 @@ display: flex;
 .last-news-text a img {
   background: url(image.png);
   border-radius: 5px;
+  width: 252px;
+  height: 143px;
 }
 
 .last-news-text p img {
@@ -258,8 +291,11 @@ display: flex;
   height: 20px;
   left: 389px;
   top: 2031px;
-
 }
+.last-news-text h3, .last-news-text p{
+  width: 512px;
+}
+
 
 .more-news {
   background: #295093;
@@ -269,23 +305,27 @@ display: flex;
   font-size: 17px;
   line-height: 20px;
   color: #FFFFFF;
+  align-items: center;
 }
-
+.popular-news-banner{
+  width: 386px;
+}
 .most-popular-news-head {
   background: #F6F6F9;
   border-radius: 5px;
+
 }
 
 .most-popular-news-text li {
   list-style: none;
+  ;
 }
 
 .most-popular-news-text a {
   text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
   font-size: 17px;
   line-height: 20px;
+  font-weight: 400;
 
   color: #202020;
 }
