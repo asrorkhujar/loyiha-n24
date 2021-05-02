@@ -11,6 +11,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 /* SITE HEADER */
 .headerr {
   background: #F6F6F9;
@@ -21,12 +22,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.telegram-text{
+  display: flex;
+  align-items: center;
+}
 
 .valyutalar {
   display: flex;
   width: 295px;
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
 }
 
@@ -36,13 +41,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.language-button{
+
+.language-button {
   background-color: #fff;
 }
-.poisk-button{
+
+.poisk-button {
   background-color: #fff;
 }
+
 .logo-n24 {}
+
 .valyutalar span {
   font-weight: bold;
   font-size: 16px;
@@ -94,7 +103,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
- }
+}
 
 .nav-item li {
   font-style: normal;
@@ -116,7 +125,7 @@ body {
 /* COVID STATISTIKA */
 .main-glava-hidden {}
 
-.covid-statistika{
+.covid-statistika {
   display: flex;
   justify-content: space-around;
 }
@@ -134,16 +143,18 @@ body {
   background: #F6F6F9;
   width: 1200px;
   display: flex;
-justify-content: space-between;
-align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-.covid-statistika{
+
+.covid-statistika {
   width: 700px;
-justify-content:  space-evenly;
+  justify-content: space-evenly;
 }
-.virus-text{
-width: 300;
-display: flex;
+
+.virus-text {
+  width: 300;
+  display: flex;
 }
 
 .kasallangan {
@@ -175,6 +186,7 @@ display: flex;
 .olgan-raqam {
   font-weight: bold;
 }
+
 /* BREAKING NEWS */
 .section-hidden {}
 
@@ -186,10 +198,12 @@ display: flex;
   list-style: none;
   color: #202020;
 }
-.breaking-news-text{
+
+.breaking-news-text {
   display: flex;
   flex-wrap: wrap;
 }
+
 .breaking-news-text a {
   text-decoration: none;
   font-weight: 500;
@@ -210,7 +224,8 @@ display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.article-join div{
+
+.article-join div {
   display: flex;
   justify-content: left;
 }
@@ -234,22 +249,26 @@ display: flex;
   color: #FFFFFF;
 
 }
-.all-last-popular-news{
+
+.all-last-popular-news {
   display: flex;
   justify-content: space-between;
 }
-/* LAST NEWS */
-.last-news-head{
-  width: 780px;
-  }
-  .last-news-head img{
-    width: 252px;
-    height: 143px;
 
-  }
-.last-news-text li{
-display: flex;
-align-items: center;
+/* LAST NEWS */
+.last-news-head {
+  width: 780px;
+}
+
+.last-news-head img {
+  width: 252px;
+  height: 143px;
+
+}
+
+.last-news-text li {
+  display: flex;
+  align-items: center;
 
 }
 
@@ -292,7 +311,9 @@ align-items: center;
   left: 389px;
   top: 2031px;
 }
-.last-news-text h3, .last-news-text p{
+
+.last-news-text h3,
+.last-news-text p {
   width: 512px;
 }
 
@@ -307,9 +328,11 @@ align-items: center;
   color: #FFFFFF;
   align-items: center;
 }
-.popular-news-banner{
+
+.popular-news-banner {
   width: 386px;
 }
+
 .most-popular-news-head {
   background: #F6F6F9;
   border-radius: 5px;
@@ -318,7 +341,6 @@ align-items: center;
 
 .most-popular-news-text li {
   list-style: none;
-  ;
 }
 
 .most-popular-news-text a {
@@ -326,8 +348,14 @@ align-items: center;
   font-size: 17px;
   line-height: 20px;
   font-weight: 400;
-
   color: #202020;
+}
+.most-popular-news-text h3{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .most-popular-news-head a {
@@ -352,6 +380,8 @@ align-items: center;
 .article-app {
   background: #F6F6F9;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .article-app h2 {
@@ -369,13 +399,18 @@ align-items: center;
   line-height: 21px;
   color: #333333;
 }
-.app-vkl{
-  background-color:#FE5C28;
+.article-app a{
+width: 162.71px;
+height: 50px;
+}
+.app-vkl {
+  background-color: #FE5C28;
 }
 
 .footer-all {
   background: #295093;
 }
+.footer-all div{}
 
 .footer-all h2 {
   font-style: normal;
@@ -384,7 +419,15 @@ align-items: center;
   line-height: 17px;
   color: #FFFFFF;
 }
-
+.telegram-kanal{
+  display: flex;
+  align-items: center;
+}
+.logo-and-telegram{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .telegram-kanal a {
   list-style: none;
   text-decoration: none;
@@ -395,11 +438,20 @@ align-items: center;
   line-height: 17px;
   color: #295093;
 }
+.tg-podpis{
+  display: flex;
+  align-items: center;
+}
 
 .logo-white {
   background: #133C82;
-  border-radius: 5px;
-  transform: matrix(1, 0, 0, -1, 0, 0);
+  align-items: center;
+}
+.hr-footer{
+  background: #133C82;
+}
+.osayte-head{
+width: 365px;
 }
 
 .osayte-head h3 {
@@ -411,13 +463,16 @@ align-items: center;
 }
 
 .osayte-head p {
-  font-style: normal;
-  font-weight: 500;
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
 }
-
+.footer-nav-first{
+  width: 170px;
+}
 .footer-nav-first a {
   font-style: normal;
   font-weight: 500;
@@ -426,7 +481,9 @@ align-items: center;
   color: #FFFFFF;
   text-decoration: none;
 }
-
+.footer-nav-second{
+  width: 230px;
+}
 .footer-nav-second a {
   font-style: normal;
   font-weight: 500;
@@ -438,4 +495,15 @@ align-items: center;
 
 .footer-nav li {
   list-style: none;
+
+}
+.footer-information{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.footer-nav{
+  display: flex;
+
 }
