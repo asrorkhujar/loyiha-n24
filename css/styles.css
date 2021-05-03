@@ -31,7 +31,6 @@ body {
 .valyutalar {
   display: flex;
   width: 295px;
-  display: flex;
   justify-content: space-between;
 
 }
@@ -229,6 +228,7 @@ body {
 .article-join div {
   display: flex;
   justify-content: left;
+  align-items: center;
 }
 
 .article-bell {}
@@ -428,6 +428,7 @@ body {
 .telegram-kanal {
   display: flex;
   align-items: center;
+  width: 800px;
 }
 
 .logo-and-telegram {
