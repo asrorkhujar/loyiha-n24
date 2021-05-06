@@ -1,15 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+dd{
+  margin: 0;
+}
+
+
 body {
   background-color: #fff;
   font-family: "Rubik", "Arial", sans-serif;
 }
 
+
 .container {
-  width: 1200px;
-  left: 119px;
+  width: 1240px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* SITE HEADER */
@@ -122,6 +147,13 @@ body {
   color: #515151;
 }
 
+.main-glava-hidden{
+  display: none;
+}
+
+.section-hidden{
+  display: none;
+}
 /* COVID STATISTIKA */
 .main-glava-hidden {}
 
@@ -137,24 +169,45 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000000;
+  margin-left: 20px;
 }
 
 .corona-article {
   background: #F6F6F9;
-  width: 1200px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-around; */
   align-items: center;
 }
 
 .covid-statistika {
   width: 700px;
-  justify-content: space-evenly;
+  /* justify-content: space-between; */
+  padding:41px 41px 41px 22px
 }
 
+.covid-statistika div{
+  margin-left: 20px;
+  padding-right: 15px;
+}
+
+.covid-features{
+  display:flex ;
+}
+
+
+
+.virus-text img{
+margin-left: 35px;
+}
 .virus-text {
-  width: 300;
+  width: 400px;
   display: flex;
+  align-items: center;
+  border-right: 3px solid rgb(224, 0, 0);
+}
+
+.one-two{
+  border-right: 3px solid #F4CCD1;
 }
 
 .kasallangan {
@@ -164,7 +217,12 @@ body {
 }
 
 .kasal-raqam {
-  font-weight: bold;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
 }
 
 .tuzalgan {
@@ -174,7 +232,12 @@ body {
 }
 
 .tuzalgan-raqam {
-  font-weight: bold;
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
 }
 
 .olgan {
@@ -184,7 +247,12 @@ body {
 }
 
 .olgan-raqam {
-  font-weight: bold;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
 }
 
 /* BREAKING NEWS */
@@ -197,12 +265,19 @@ body {
   width: 386px;
   list-style: none;
   color: #202020;
+  margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 .breaking-news-text {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -15px;
 }
+
+
+
 
 .breaking-news-text a {
   text-decoration: none;
@@ -223,15 +298,23 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 5px;
+  padding-right: 20px;
 }
 
 .article-join div {
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.article-bell {}
+.article-bell {
+
+
+}
 
 .uvidomleniya {
   font-style: normal;
@@ -239,6 +322,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000000;
+  margin-left: 18px;
 }
 
 .article-join a {
@@ -254,14 +338,47 @@ body {
 .all-last-popular-news {
   display: flex;
   justify-content: space-between;
+  margin-top: 35px;
 }
 
 /* LAST NEWS */
 .last-news-head {
   width: 780px;
 }
+ .last-news-text{
+margin-top: 0;
+ }
 
-.last-news-head img {
+ .last-news-side{
+   align-items: center;
+   margin-left: 20px;
+   padding-bottom: 15px
+ }
+
+ .last-news-side h3{
+   padding-bottom: 0px;
+   font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+
+color: #202020;
+ }
+
+
+ .last-news-side div{
+   display: flex;
+  align-items: center;
+margin-top: 15px;
+   }
+
+   .last-news-text li{
+     margin-bottom: 10px;
+   }
+
+
+.last-news-img {
   width: 252px;
   height: 143px;
 
@@ -270,13 +387,9 @@ body {
 .last-news-text li {
   display: flex;
   align-items: center;
-
+list-style: none;
 }
 
-.last-news-text li {
-  list-style: none;
-
-}
 
 .last-news-text a {
   text-decoration: none;
@@ -291,6 +404,8 @@ body {
   font-size: 15px;
   line-height: 18px;
   color: #434343;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .last-news-text time {
@@ -317,6 +432,10 @@ body {
 .last-news-text p {
   width: 512px;
 }
+.last-news-text h3{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 
 
 .more-news {
@@ -328,6 +447,9 @@ body {
   line-height: 20px;
   color: #FFFFFF;
   align-items: center;
+  margin:0 auto;
+  display: block ;
+padding: 10px 30px;
 }
 
 .popular-news-banner {
@@ -337,7 +459,18 @@ body {
 .most-popular-news-head {
   background: #F6F6F9;
   border-radius: 5px;
+padding: 15px 20px;
+margin-bottom: 20px;
 
+}
+
+.most-popular-news-head h2{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 0;
+  color: #202020;
 }
 
 .most-popular-news-text li {
@@ -384,6 +517,8 @@ body {
   border-radius: 5px;
   display: flex;
   align-items: center;
+margin-top: 45px;
+margin-bottom: 45px;
 }
 
 .article-app h2 {
@@ -408,7 +543,9 @@ body {
 }
 
 .app-vkl {
-  background-color: #FE5C28;
+background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+border-radius: 5px;
+padding: 20px 15px;
 }
 
 .footer-all {
