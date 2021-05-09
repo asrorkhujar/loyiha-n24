@@ -69,11 +69,47 @@ body {
 
 .language-button {
   background-color: #fff;
+  border: transparent;
+  border-radius: 5px;
+  margin-left: 46px;
 }
+.language-button::before{
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("../img/ru.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right:5px;
+}
+
+
 
 .poisk-button {
   background-color: #fff;
+  border: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: -50px;
 }
+
+.poisk-button::before{
+  width: 24px;
+  height: 24px;
+  content: "";
+  background-image: url("../img/poisk.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  background-color: #fff;
+  border: transparent;
+  border-radius: 3px;
+  background-position-y: 0px;
+}
+
 
 .logo-n24 {}
 
@@ -97,6 +133,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #535353;
+
 }
 
 .telegram-text {
@@ -106,28 +143,44 @@ body {
   line-height: 19px;
   align-items: center;
   justify-content: center;
-
   color: #FFFFFF;
   background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  padding: 11px 12px 8px 15px;
 
 }
 
+.telegram-text::before{
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("../img/cib_telegram.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right:5px;
+  background-color: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+}
+
+
+
+
+
 .nav-head {
+  display: flex;
   background-color: #fff;
   box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
   border-radius: 5px;
-  width: 1200px;
-  height: 68px;
-  left: 119px;
-  justify-content: space-around;
-  align-items: center;
 
 }
 
 .nav-item {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  padding: 21px 24px 21px 24px ;
+  margin: 0;
 }
 
 .nav-item li {
@@ -137,6 +190,10 @@ body {
   line-height: 23px;
   list-style: none;
   color: #515151;
+  margin-right: 25px;
+}
+.nav-item li:nth-child(10){
+  margin-right: 0px;
 }
 
 .nav-item a {
@@ -169,8 +226,22 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000000;
-  margin-left: 20px;
+  margin-left: 50px;
 }
+
+.covid-text::before{
+  flex-shrink: 0;
+  width: 43px;
+  height: 45px;
+  content: "";
+  background-image: url("../img/virus.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  margin-right:10px;
+
+}
+
 
 .corona-article {
   background: #F6F6F9;
@@ -195,10 +266,6 @@ body {
 }
 
 
-
-.virus-text img{
-margin-left: 35px;
-}
 .virus-text {
   width: 400px;
   display: flex;
@@ -216,6 +283,21 @@ margin-left: 35px;
   color: #DB0000;
 }
 
+.kasallangan::before{
+  flex-shrink: 0;
+  width: 38px;
+  height: 40px;
+  content: "";
+  background-image: url("../img/maska.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  margin-right:10px;
+
+}
+
+
+
 .kasal-raqam {
 font-family: Rubik;
 font-style: normal;
@@ -229,6 +311,33 @@ color: #000000;
   font-size: 18px;
   line-height: 21px;
   color: #05B135;
+}
+
+
+.tuzalgan::before{
+  flex-shrink: 0;
+  width: 38px;
+  height: 40px;
+  content: "";
+  background-image: url("../img/cil_smile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  margin-right:10px;
+
+}
+
+.olgan::before{
+  flex-shrink: 0;
+  width: 38px;
+  height: 40px;
+  content: "";
+  background-image: url("../img/Vector.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  margin-right:10px;
+
 }
 
 .tuzalgan-raqam {
@@ -315,6 +424,22 @@ color: #000000;
 
 
 }
+
+
+.uvidomleniya::before{
+  flex-shrink: 0;
+  width: 31px;
+  height: 35px;
+  content: "";
+  background-image: url("../img/bell-icon@2x.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 40px;
+  margin-right:10px;
+
+}
+
+
 
 .uvidomleniya {
   font-style: normal;
@@ -412,6 +537,18 @@ list-style: none;
   font-size: 14px;
   line-height: 17px;
   color: #7688A4;
+}
+
+
+.last-news-side time::before{
+  flex-shrink: 0;
+  width: 18px;
+  height: 20px;
+  content: "";
+  background-image: url("../img/ic_outline-date-range.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 20px;
 }
 
 .last-news-text a img {
@@ -521,6 +658,36 @@ margin-top: 45px;
 margin-bottom: 45px;
 }
 
+.article-app::before{
+  flex-shrink: 0;
+  width: 236px;
+  height: 177px;
+  content: "";
+  background-image: url("../img/telefon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 40px;
+  margin-right:10px;
+
+}
+
+
+/* .googleplay-icon:{
+  display: block;
+  flex-shrink: 0;
+  width: 163px;
+  height: 50px;
+  content: "";
+  background-image: url("../img/googleplay1.png.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+
+
+
+
+
 .article-app h2 {
   font-style: normal;
   font-weight: 500;
@@ -540,7 +707,11 @@ margin-bottom: 45px;
 .article-app a {
   width: 162.71px;
   height: 50px;
-}
+  margin-left: 20px;
+  }
+  .appstore-icon{
+    margin-right: 20px;
+  }
 
 .app-vkl {
 background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
@@ -568,10 +739,15 @@ padding: 20px 15px;
   width: 800px;
 }
 
+.telegram-kanal h2{
+padding-left:0px;
+}
+
 .logo-and-telegram {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+
 }
 
 .telegram-kanal a {
@@ -583,6 +759,8 @@ padding: 20px 15px;
   font-size: 14px;
   line-height: 17px;
   color: #295093;
+  padding: 10px 11px 9px 15px;
+  border-radius: 5px;
 }
 
 .tg-podpis {
@@ -590,9 +768,26 @@ padding: 20px 15px;
   align-items: center;
 }
 
+.tg-podpis::before{
+  flex-shrink: 0;
+  width: 18px;
+  height: 20px;
+  content: "";
+  background-image: url("../img/cib_telegram_blue.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 0px;
+  margin-right:10px;
+
+}
+
+
+
 .logo-white {
   background: #133C82;
   align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .hr-footer {
@@ -636,6 +831,9 @@ padding: 20px 15px;
 .footer-nav-second {
   width: 230px;
 }
+.footer-nav ul{
+  margin-right: 100px;
+}
 
 .footer-nav-second a {
   font-style: normal;
@@ -648,7 +846,7 @@ padding: 20px 15px;
 
 .footer-nav li {
   list-style: none;
-
+  margin-bottom: 10px;
 }
 
 .footer-information {
