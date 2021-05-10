@@ -158,7 +158,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   padding-right: 20px;
-  background-color: #fff;
   border-radius: 50%;
   margin-right:5px;
   background-color: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
@@ -226,10 +225,10 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000000;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
-.covid-text::before{
+.virus-text::before{
   flex-shrink: 0;
   width: 43px;
   height: 45px;
@@ -237,8 +236,8 @@ body {
   background-image: url("../img/virus.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  padding-right: 20px;
-  margin-right:10px;
+  /* padding-left:20px; */
+  margin-left:30px;
 
 }
 
@@ -276,6 +275,9 @@ body {
 .one-two{
   border-right: 3px solid #F4CCD1;
 }
+.one-three{
+  border-right: 3px solid #F4CCD1;
+}
 
 .kasallangan {
   font-size: 18px;
@@ -283,7 +285,7 @@ body {
   color: #DB0000;
 }
 
-.kasallangan::before{
+.one-two::before{
   flex-shrink: 0;
   width: 38px;
   height: 40px;
@@ -291,8 +293,8 @@ body {
   background-image: url("../img/maska.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  padding-right: 20px;
-  margin-right:10px;
+  padding-right: px;
+  margin-right:px;
 
 }
 
@@ -314,7 +316,7 @@ color: #000000;
 }
 
 
-.tuzalgan::before{
+.one-three::before{
   flex-shrink: 0;
   width: 38px;
   height: 40px;
@@ -327,7 +329,7 @@ color: #000000;
 
 }
 
-.olgan::before{
+.one-four::before{
   flex-shrink: 0;
   width: 38px;
   height: 40px;
@@ -585,7 +587,8 @@ list-style: none;
   color: #FFFFFF;
   align-items: center;
   margin:0 auto;
-  display: block ;
+  display: block;
+  border: none;
 padding: 10px 30px;
 }
 
